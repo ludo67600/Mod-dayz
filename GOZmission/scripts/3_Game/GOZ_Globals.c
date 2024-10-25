@@ -1,0 +1,1 @@
+ref GOZMissionConfigHandler g_GOZMissionHandler;

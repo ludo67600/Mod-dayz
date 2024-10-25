@@ -1,0 +1,71 @@
+FrameWidgetClass rootFrame {
+ clipchildren 1
+ inheritalpha 0
+ ignorepointer 1
+ position 0 0
+ size 0.98 0.98
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scaled 1
+ {
+  PanelWidgetClass PanelNotification {
+   ignorepointer 1
+   color 0.1804 0.1804 0.1804 0
+   position 641.79205 24.8852
+   size 630 150
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    ImageWidgetClass ImageFont {
+     ignorepointer 1
+     position -4.13478 0
+     size 630 150
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scaled 1
+     imageTexture "GOZmission/layouts/NotifiConvoy.edds"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+    ImageWidgetClass ConvoyLogo {
+     ignorepointer 1
+     position 16.2883 27.2926
+     size 100 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     imageTexture "GOZmission/layouts/icons/Convoy.edds"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+    MultilineTextWidgetClass NotificationText {
+     ignorepointer 1
+     position 131.04799 35.1529
+     size 470.88199 84.1572
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text ""
+     "exact text" 1
+     font "gui/fonts/sdf_MetronBook24"
+     "text valign" center
+     wrap 1
+    }
+   }
+  }
+ }
+}
